@@ -2,8 +2,8 @@
 import PropTypes from "prop-types";
 
 // Images
-import imageNotFind from "../../assets/images/image_avatar_test.png";
-import arrowBlue from "../../assets/icons/arrow_blue.svg";
+import imageNotFind from "../../../public/assets/images/image_avatar_test.png";
+import arrowBlue from "../../../public/assets/icons/arrow_blue.svg";
 
 // Functions
 import { formatDate } from "../../utils/formatDate";

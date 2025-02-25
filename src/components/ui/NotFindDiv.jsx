@@ -1,5 +1,5 @@
 // Image
-import notFind from "../../assets/icons/not_find.svg";
+import notFind from "../../../public/assets/icons/not_find.svg";
 
 // react
 import PropTypes from "prop-types"; 

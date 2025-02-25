@@ -3,8 +3,8 @@ import { useRef } from 'react';
 import PropTypes from 'prop-types';
 
 // Images
-import searchIcon from "../assets/icons/search.svg";
-import iconTrash from "../assets/icons/icon_trash.svg";
+import searchIcon from "../../public/assets/icons/search.svg"
+import iconTrash from "../../public/assets/icons/icon_trash.svg";
 
 export function Search({ search, setSearch }) {
   const inputRef = useRef(null);

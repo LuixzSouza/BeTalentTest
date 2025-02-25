@@ -6,7 +6,7 @@ export function useEmployees(search) {
   const [expandedRows, setExpandedRows] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5173/db/db.json")
+    fetch("http://betalentluixz.netlify.app/db/db.json")
       .then((response) => response.json())
       .then((data) => {
         console.log("Dados carregados:", data.employees);
