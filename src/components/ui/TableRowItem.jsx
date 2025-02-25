@@ -17,7 +17,7 @@ function TableRowItem({ item, index, expandedRows, toggleRow }) {
     >
       <div className="w-full grid grid-cols-3 items-center justify-start md:justify-between gap-5 md:grid-cols-5">
         <div className="flex items-center justify-center w-9 h-9 rounded-full overflow-hidden">
-          <img src={item.image ? item.image : imageNotFind} alt={item.name} />
+          <img src={item.image ? item.image : imageNotFind} alt={item.name} className="w-full h-full object-cover" />
         </div>
         <p>{item.name}</p>
         <p className="hidden md:flex">{item.job}</p>
