@@ -2,10 +2,6 @@
 import { useRef } from 'react';
 import PropTypes from 'prop-types';
 
-// Images
-import searchIcon from "../../public/assets/icons/search.svg"
-import iconTrash from "../../public/assets/icons/icon_trash.svg";
-
 export function Search({ search, setSearch }) {
   const inputRef = useRef(null);
 
@@ -41,7 +37,7 @@ export function Search({ search, setSearch }) {
           </label>
           {search ? (
             <img
-              src={iconTrash}
+              src={"https://betalentluixz.netlify.app/assets/icons/icon_trash.svg"}
               alt="Icon Trash"
               onClick={handleClear}
               className="absolute top-3 right-3 cursor-pointer"
@@ -49,7 +45,7 @@ export function Search({ search, setSearch }) {
           ) : (
             <div onClick={handleFocus} >
               <img
-                src={searchIcon}
+                src={"https://betalentluixz.netlify.app/assets/icons/search.svg"}
                 alt="Icon Search"
                 className="absolute top-3 right-3 cursor-pointer"
               />

@@ -1,10 +1,6 @@
 // React
 import PropTypes from "prop-types";
 
-// Images
-import imageNotFind from "../../../public/assets/images/image_avatar_test.png";
-import arrowBlue from "../../../public/assets/icons/arrow_blue.svg";
-
 // Functions
 import { formatDate } from "../../utils/formatDate";
 import { formatPhone } from "../../utils/formatPhone";
@@ -17,7 +13,7 @@ function TableRowItem({ item, index, expandedRows, toggleRow }) {
     >
       <div className="w-full grid grid-cols-3 items-center justify-start md:justify-between gap-5 md:grid-cols-5">
         <div className="flex items-center justify-center w-9 h-9 rounded-full overflow-hidden">
-          <img src={item.image ? item.image : imageNotFind} alt={item.name} className="w-full h-full object-cover" />
+          <img src={item.image ? item.image : "https://betalentluixz.netlify.app/assets/images/image_avatar_test.png"} alt={item.name} className="w-full h-full object-cover" />
         </div>
         <p>{item.name}</p>
         <p className="hidden md:flex">{item.job}</p>
@@ -29,7 +25,7 @@ function TableRowItem({ item, index, expandedRows, toggleRow }) {
           expandedRows[index] ? "-rotate-180" : "rotate-0"
         }`}
       >
-        <img src={arrowBlue} alt="Arrow Blue" />
+        <img src={"https://betalentluixz.netlify.app/assets/icons/arrow_blue.svg"} alt="Arrow Blue" />
       </div>
     </div>
   );
