@@ -1,66 +1,55 @@
-# Teste Técnico Front-end BeTalent
+# Teste Prático Front-end BeTalent
 
-Este é um repositório para Testes Técnicos em Front-end da Be. Ele é destinado a pessoas que participam de nossos processos seletivos. 
+Olá esse projeto foi um teste prático de front-end para a BeTalent. Este projeto consiste em uma interface responsiva que exibe uma tabela de Funcionários, com dados fornecidos por uma API simulada utilizando o json-server. A interface permite realizar pesquisas, formatar datas e telefones fornecido pela API no front-end e se adapta para dispositivos desktop e mobile conforme o mockup fornecido.
 
-Se você chegou até aqui por meio de um formulário de Teste Técnico, siga em frente. Caso contrário, acompanhe a BeTalent no [Linkedin](https://www.linkedin.com/company/betalenttech), [Instagram](https://www.instagram.com/betalent.tech/), [Facebook](https://web.facebook.com/bemobile.tech) ou na nossa newsletter [BeTalent Academy]([https://t.me/be_tech_community](https://beacademy.substack.com/)). Divulgamos novos processos seletivos por lá.
+## Link de Visualização
 
-## Desafio
+https://betalentluixz.netlify.app
+![Thumbnail Test](https://betalentluixz.netlify.app/thumbnail.png)
 
-O Teste Técnico para Front-End da BeTalent consiste em construir a visualização de uma tabela com dados que virão de uma API simulada, em json-server.
+## Tecnologias Utilizadas
 
-### Mockup
+- **React.js**: Biblioteca principal para construção da interface.
+- **json-server**: Para simular uma API com os dados dos colaboradores.
+- **Node.js**: Ambiente de execução para o projeto.
+- **Npm**: Gerenciador de pacotes.
 
-Este é o [projeto em Figma](https://www.figma.com/file/yw6th52zE9bubewc6ayTg5/Teste-T%C3%A9cnico-Front-End-Be.?type=design&node-id=1%3A4&mode=dev&t=vVxs9eyKybrYmq4Z-1) para você se orientar. Nele, você encontrará estilos, visualização desktop e mobile e outros padrões que deverá seguir.
+## Bibliotecas e Dependências
 
-### Requisitos Gerais
+- **PropTypes**: Para validação das propriedades dos componentes React.
+- **tailwind-merge**: Auxilia na combinação de classes do Tailwind CSS, como o ContainerGrid.
+- **Tailwind CSS**: Para estilização rápida e responsiva da interface.
 
-Deve-se utilizar React.js ou Vanilla JS (JavaScript puro) para construir o projeto.
+## Funcionalidades
 
-É permitido utilizar libs externas, mas recomenda-se que seja o mínimo possível.
+- **Tabela de Colaboradores**: Exibe os seguintes dados:
+  - Imagem (thumb do/a usuário/a)
+  - Nome
+  - Cargo
+  - Data de admissão (formatada)
+  - Telefone (formatado)
+- **Input de Pesquisar**: Permite filtrar os colaboradores por nome, cargo ou telefone.
+- **Responsividade**: Layout adaptado para desktop e mobile.
+- **API Simulada**: Os dados são carregados via fetch a partir do json-server.
 
-A visualização deve ser responsiva.
+### 1. Clone do Repositório e Instalação das Dependências e Execução
 
-A tabela deve conter as seguintes colunas:
+1. **Abra seu terminal** (CMD, PowerShell ou o terminal integrado do VSCode, Intelijjei, etc...).
 
-- imagem (thumb do/a usuário/a);
-- nome;
-- cargo
-- data de admissão;
-- telefone.
+2. **Navegue até o diretório desejado** onde deseja salvar o projeto:
 
-Também deve ser possível realizar pesquisa na tabela por meio de um input. O input de pesquisa deve permitir filtrar dados por cargo, nome e telefone.
+   ```bash
+   cd caminho/para/sua/pasta/Projetos
 
-Datas e telefones devem ser formatadas no front-end e não na API.
+   # Clona o repositório para sua máquina
+   git clone "https://github.com/LuixzSouza/BeTalentTest.git"
 
-Tenha instaladas em sua máquina as ferramentas [Git](https://git-scm.com/), [Node.js](https://nodejs.org/en/) e [Yarn](https://yarnpkg.com/) (ou outro gerenciador de pacotes de sua preferência) para poder trabalhar no projeto.
+   # Entra na pasta do projeto
+   cd /BeTalentTest
 
-### Acesso aos dados da API simulada
+   # Instala as dependências do projeto
+   npm install
 
-Para ter acesso aos dados que alimentarão o projeto, faça o seguinte:
-
-1. caso você não tenha, instale o pacote [json-server](https://github.com/typicode/json-server);
-2. clone este repositório do GitHub em sua máquina: [https://github.com/BeMobile/desafio-front-end](https://github.com/BeMobile/desafio-front-end);
-3. entre na pasta do projeto, em sua máquina, e, por meio da linha de comando, execute o comando `json-server --watch db.json`, para consumir a API simulada;
-4. inicie a estrutura e o desenvolvimento do projeto.
-
-É necessário deixar o json-server rodando no terminal para que os dados sejam visualizados no projeto.
-
-Caso você tenha problemas com o json-server, tente rodá-lo com `npx json-server db.json` ou 
-com `yarn json-server <path>/db.json`, em que `<path>` é o caminho completo até o diretório em que o arquivo db.json está localizado. Se mesmo assim não funcionar, busque ajuda na web.
-
-### Critérios de Avaliação
-
-Em ordem de relevância, avaliaremos:
-
-1. lógica de programação;
-2. organização (do código e dos arquivos);
-3. CSS do projeto;
-4. README, que deve conter, pelo menos, as seguintes informações: sobre o projeto, pré-requisitos e instruções para rodar a aplicação.
-
-É um diferencial na avaliação o uso de TypeScript.
-
-### Envio da Solução
-
-O projeto deverá ser hospedado em um repositório no seu GitHub. O link do repositório deverá ser fornecido por meio do formulário de Teste Técnico encaminhado ao seu e-mail. Não serão aceitos links de projetos enviados por outros meios.
-
-Demais instruções e regras serão instruídas nos formulários e nas comunicações do processo seletivo do qual você está participando.
+   # Inicia o servidor de desenvolvimento
+   npm run dev
+   ```bash

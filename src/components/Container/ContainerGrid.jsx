@@ -1,4 +1,5 @@
-import PropTypes from 'prop-types'; // Importando PropTypes
+// React
+import PropTypes from 'prop-types'; 
 import { twMerge } from 'tailwind-merge';
 
 export function ContainerGrid({ children, className }) {
@@ -12,8 +13,7 @@ export function ContainerGrid({ children, className }) {
   );
 }
 
-// Definindo a validação para as props
 ContainerGrid.propTypes = {
-  children: PropTypes.node.isRequired, // Validando que children é um nó React
-  className: PropTypes.string, // className pode ser uma string opcional
+  children: PropTypes.node.isRequired, 
+  className: PropTypes.string, 
 };

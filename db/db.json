@@ -71,6 +71,110 @@
       "admission_date": "2021-05-01T00:00:00.000Z",
       "phone": "5551234567890",
       "image": "https://www.clipartmax.com/png/middle/277-2772117_user-profile-avatar-woman-icon-avatar-png-profile-icon.png"
+    },
+    {
+      "id": 11,
+      "name": "Luiz Antônio de Souza",
+      "job": "Front-end",
+      "admission_date": "2025-02-25T00:00:00.000Z",
+      "phone": "5535997354797",
+      "image": "https://luixzsouza.com.br/image/MySelf.png"
+    },
+    {
+      "id": 12,
+      "name": "Silvio de Carvalho",
+      "job": "Front-end",
+      "admission_date": "2025-02-25T00:00:00.000Z",
+      "phone": "5535997354797",
+      "image": "https://betalentluixz.netlify.app/assets/images/Photo_1"
+    },
+    {
+      "id": 13,
+      "name": "Caroline Rocha da Silva",
+      "job": "Front-end",
+      "admission_date": "2025-02-25T00:00:00.000Z",
+      "phone": "5535997354797",
+      "image": "https://betalentluixz.netlify.app/assets/images/Photo_2"
+    },
+    {
+      "id": 14,
+      "name": "Yasmin Pereira",
+      "job": "Front-end",
+      "admission_date": "2025-02-25T00:00:00.000Z",
+      "phone": "5535997354797",
+      "image": "https://betalentluixz.netlify.app/assets/images/Photo_3"
+    },
+    {
+      "id": 15,
+      "name": "Juliana Borba",
+      "job": "Front-end",
+      "admission_date": "2025-02-25T00:00:00.000Z",
+      "phone": "5535997354797",
+      "image": "https://betalentluixz.netlify.app/assets/images/Photo_4"
+    },
+    {
+      "id": 16,
+      "name": "Ormar A. Amaral",
+      "job": "Front-end",
+      "admission_date": "2025-02-25T00:00:00.000Z",
+      "phone": "5535997354797",
+      "image": "https://betalentluixz.netlify.app/assets/images/Photo_5"
+    },
+    {
+      "id": 17,
+      "name": "Grabriel D.",
+      "job": "Front-end",
+      "admission_date": "2025-02-25T00:00:00.000Z",
+      "phone": "5535997354797",
+      "image": "https://betalentluixz.netlify.app/assets/images/Photo_6"
+    },
+    {
+      "id": 18,
+      "name": "Reginaldo Felipe",
+      "job": "Front-end",
+      "admission_date": "2025-02-25T00:00:00.000Z",
+      "phone": "5535997341297",
+      "image": "https://betalentluixz.netlify.app/assets/images/Photo_7"
+    },
+    {
+      "id": 19,
+      "name": "Josiane Dias",
+      "job": "Front-end",
+      "admission_date": "2025-02-25T00:00:00.000Z",
+      "phone": "5535997321797",
+      "image": "https://betalentluixz.netlify.app/assets/images/Photo_8"
+    },
+    {
+      "id": 20,
+      "name": "João Pedro Farias",
+      "job": "Front-end",
+      "admission_date": "2025-02-25T00:00:00.000Z",
+      "phone": "5535423154797",
+      "image": "https://betalentluixz.netlify.app/assets/images/Photo_9"
+    },
+    {
+      "id": 21,
+      "name": "Vanessa Machado",
+      "job": "Front-end",
+      "admission_date": "2025-02-25T00:00:00.000Z",
+      "phone": "5535924644237",
+      "image": "https://betalentluixz.netlify.app/assets/images/Photo_10"
+    },
+    {
+      "id": 22,
+      "name": "Luiza Alves de Souza",
+      "job": "Front-end",
+      "admission_date": "2025-02-25T00:00:00.000Z",
+      "phone": "5535997142373",
+      "image": "https://betalentluixz.netlify.app/assets/images/Photo_11"
+    },
+    {
+      "id": 23,
+      "name": "Giovana L. Arruda",
+      "job": "Front-end",
+      "admission_date": "2025-02-25T00:00:00.000Z",
+      "phone": "5535994723797",
+      "image": "https://betalentluixz.netlify.app/assets/images/Photo_12"
     }
   ]
 }

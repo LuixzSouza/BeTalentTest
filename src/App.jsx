@@ -1,6 +1,7 @@
 
-import { Header } from "./components/Header.jsx";
-import { TableContent } from "./components/TableContent.jsx";
+// Components
+import { TableContent } from "./components/Tables/TableContent.jsx";
+import { Header } from "./components/header/Header.jsx";
 
 function App() {
   return (
