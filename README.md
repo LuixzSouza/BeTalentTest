@@ -21,6 +21,7 @@ Olá esse projeto foi um teste prático de front-end para a BeTalent. Este proje
 - **PropTypes**: Para validação das propriedades dos componentes React.
 - **tailwind-merge**: Auxilia na combinação de classes do Tailwind CSS, como o ContainerGrid.
 - **Tailwind CSS**: Para estilização rápida e responsiva da interface.
+- **Netlify**: Para deploy e teste real.
 
 ## Funcionalidades
 
