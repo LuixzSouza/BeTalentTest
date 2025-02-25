@@ -83,10 +83,10 @@
     {
       "id": 12,
       "name": "Silvio de Carvalho",
-      "job": "Front-end",
+      "job": "Designer",
       "admission_date": "2025-02-25T00:00:00.000Z",
       "phone": "5535997354797",
-      "image": "https://betalentluixz.netlify.app/assets/images/Photo_1"
+      "image": "https://betalentluixz.netlify.app/assets/images/Photo_1.png"
     },
     {
       "id": 13,
@@ -94,7 +94,7 @@
       "job": "Front-end",
       "admission_date": "2025-02-25T00:00:00.000Z",
       "phone": "5535997354797",
-      "image": "https://betalentluixz.netlify.app/assets/images/Photo_2"
+      "image": "https://betalentluixz.netlify.app/assets/images/Photo_2.png"
     },
     {
       "id": 14,
@@ -102,7 +102,7 @@
       "job": "Front-end",
       "admission_date": "2025-02-25T00:00:00.000Z",
       "phone": "5535997354797",
-      "image": "https://betalentluixz.netlify.app/assets/images/Photo_3"
+      "image": "https://betalentluixz.netlify.app/assets/images/Photo_3.png"
     },
     {
       "id": 15,
@@ -110,31 +110,31 @@
       "job": "Front-end",
       "admission_date": "2025-02-25T00:00:00.000Z",
       "phone": "5535997354797",
-      "image": "https://betalentluixz.netlify.app/assets/images/Photo_4"
+      "image": "https://betalentluixz.netlify.app/assets/images/Photo_4.png"
     },
     {
       "id": 16,
       "name": "Ormar A. Amaral",
-      "job": "Front-end",
+      "job": "Designer",
       "admission_date": "2025-02-25T00:00:00.000Z",
       "phone": "5535997354797",
-      "image": "https://betalentluixz.netlify.app/assets/images/Photo_5"
+      "image": "https://betalentluixz.netlify.app/assets/images/Photo_5.png"
     },
     {
       "id": 17,
       "name": "Grabriel D.",
-      "job": "Front-end",
+      "job": "Back-end",
       "admission_date": "2025-02-25T00:00:00.000Z",
       "phone": "5535997354797",
-      "image": "https://betalentluixz.netlify.app/assets/images/Photo_6"
+      "image": "https://betalentluixz.netlify.app/assets/images/Photo_6.png"
     },
     {
       "id": 18,
       "name": "Reginaldo Felipe",
-      "job": "Front-end",
+      "job": "Designer",
       "admission_date": "2025-02-25T00:00:00.000Z",
       "phone": "5535997341297",
-      "image": "https://betalentluixz.netlify.app/assets/images/Photo_7"
+      "image": "https://betalentluixz.netlify.app/assets/images/Photo_7.png"
     },
     {
       "id": 19,
@@ -142,7 +142,7 @@
       "job": "Front-end",
       "admission_date": "2025-02-25T00:00:00.000Z",
       "phone": "5535997321797",
-      "image": "https://betalentluixz.netlify.app/assets/images/Photo_8"
+      "image": "https://betalentluixz.netlify.app/assets/images/Photo_8.png"
     },
     {
       "id": 20,
@@ -150,31 +150,31 @@
       "job": "Front-end",
       "admission_date": "2025-02-25T00:00:00.000Z",
       "phone": "5535423154797",
-      "image": "https://betalentluixz.netlify.app/assets/images/Photo_9"
+      "image": "https://betalentluixz.netlify.app/assets/images/Photo_9.png"
     },
     {
       "id": 21,
       "name": "Vanessa Machado",
-      "job": "Front-end",
+      "job": "Designer",
       "admission_date": "2025-02-25T00:00:00.000Z",
       "phone": "5535924644237",
-      "image": "https://betalentluixz.netlify.app/assets/images/Photo_10"
+      "image": "https://betalentluixz.netlify.app/assets/images/Photo_10.png"
     },
     {
       "id": 22,
       "name": "Luiza Alves de Souza",
-      "job": "Front-end",
+      "job": "Designer",
       "admission_date": "2025-02-25T00:00:00.000Z",
       "phone": "5535997142373",
-      "image": "https://betalentluixz.netlify.app/assets/images/Photo_11"
+      "image": "https://betalentluixz.netlify.app/assets/images/Photo_11.png"
     },
     {
       "id": 23,
       "name": "Giovana L. Arruda",
-      "job": "Front-end",
+      "job": "Back-end",
       "admission_date": "2025-02-25T00:00:00.000Z",
       "phone": "5535994723797",
-      "image": "https://betalentluixz.netlify.app/assets/images/Photo_12"
+      "image": "https://betalentluixz.netlify.app/assets/images/Photo_12.png"
     }
   ]
 }

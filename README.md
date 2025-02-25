@@ -4,7 +4,9 @@ Olá esse projeto foi um teste prático de front-end para a BeTalent. Este proje
 
 ## Link de Visualização
 
-https://betalentluixz.netlify.app
+- **url-site**: https://betalentluixz.netlify.app
+- **url-API**: https://betalentluixz.netlify.app/db/db.json
+
 ![Thumbnail Test](https://betalentluixz.netlify.app/thumbnail.png)
 
 ## Tecnologias Utilizadas
@@ -52,4 +54,3 @@ https://betalentluixz.netlify.app
 
    # Inicia o servidor de desenvolvimento
    npm run dev
-   ```bash
