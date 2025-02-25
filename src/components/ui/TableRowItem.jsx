@@ -15,7 +15,7 @@ function TableRowItem({ item, index, expandedRows, toggleRow }) {
         <div className="flex items-center justify-center w-9 h-9 rounded-full overflow-hidden">
           <img src={item.image ? item.image : "https://betalentluixz.netlify.app/assets/images/image_avatar_test.png"} alt={item.name} className="w-full h-full object-cover" />
         </div>
-        <p>{item.name}</p>
+        <p className="col-span-2 md:col-span-1" >{item.name}</p>
         <p className="hidden md:flex">{item.job}</p>
         <p className="hidden md:flex">{formatDate(item.admission_date)}</p>
         <p className="hidden md:flex">{formatPhone(item.phone)}</p>
